@@ -14,8 +14,10 @@
 
 
     <form action="control.php" method="POST">
+      <label>Paragrafo</label>
       <input name="text" class="form-control mb-3" aria-label="With input"></input>
-
+      
+      <label>Parola da censurare</label>
       <input name="censored" class="form-control mb-3" aria-label="With input"></input>
 
       <button class="btn btn-danger" type="submit">Invia</button>

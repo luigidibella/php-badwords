@@ -22,6 +22,7 @@ $lenghtCensoredText = strlen($textCensored);
 
     <h1>control</h1>
 
+    <label>Paragrafo</label>
     <div class="input-group mb-3">
       <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" value="<?php echo $text ?>" readonly>
       <span class="input-group-text">
@@ -29,6 +30,7 @@ $lenghtCensoredText = strlen($textCensored);
       </span>
     </div>
 
+    <label>Parola da censurare</label>
     <div class="input-group mb-3">
       <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" value="<?php echo $textCensored ?>" readonly>
       <span class="input-group-text">
